@@ -1,0 +1,56 @@
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+	background-color: $color-mine-shaft;
+	clear: both;
+	padding-top: 40px;
+
+	&,
+	a {
+		color: $color-silver-chalice;
+	}
+
+	input {
+		border: 1px solid $color-mine-shaft;
+	}
+
+	a.button,
+	a:hover,
+	a:focus {
+		color: $color-white;
+	}
+
+	li {
+		border-bottom: 1px dotted $color-dove-gray;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
+	.widget {
+		margin-bottom: 40px;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3 {
+	width: 340px;
+}
+
+.footer-widgets-1 {
+	margin-right: 60px;
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+	float: left;
+}
+
+.footer-widgets-3 {
+	float: right;
+}

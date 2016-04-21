@@ -1,0 +1,35 @@
+/* ## Pagination
+--------------------------------------------- */
+
+.pagination {
+	clear: both;
+	margin: 40px 0;
+}
+
+.adjacent-entry-pagination {
+	margin-bottom: 0;
+}
+
+.archive-pagination {
+
+	li {
+		display: inline;
+	}
+
+	li a {
+		background-color: $color-mine-shaft;
+		color: $color-white;
+		cursor: pointer;
+		display: inline-block;
+		font-size: rem(16);
+		padding: 8px 12px;
+		text-decoration: none;
+	}
+
+	li a:hover,
+	li a:focus,
+	.active a {
+		background-color: $color-thunderbird;
+		text-decoration: underline;
+	}
+}

@@ -1,0 +1,32 @@
+{
+  "name": "genesis-sample-sass",
+  "version": "2.2.2",
+  "description": "The Genesis Sample Theme with modern front-end development tools.",
+  "author": "Greg Rickaby",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gregrickaby/genesis-sample"
+  },
+  "bugs": {
+    "url": "https://github.com/gregrickaby/genesis-sample/issues/"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "glob": "latest",
+    "grunt": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-cssnano": "latest",
+    "grunt-newer": "latest",
+    "grunt-notify": "latest",
+    "grunt-postcss": "latest",
+    "grunt-sass": "latest",
+    "grunt-shell": "latest",
+    "load-grunt-tasks": "latest",
+    "node-bourbon": "latest"
+  },
+  "license": "GPL-2.0+"
+}

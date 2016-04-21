@@ -1,0 +1,17 @@
+/* ## Site Header Navigation
+--------------------------------------------- */
+
+.site-header {
+
+	.sub-menu {
+		border-top: 1px solid $color-gallery;
+
+		.sub-menu {
+			margin-top: -56px;
+		}
+	}
+
+	.genesis-nav-menu li li {
+		margin-left: 0;
+	}
+}

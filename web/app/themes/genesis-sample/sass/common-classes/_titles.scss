@@ -1,0 +1,32 @@
+/* ## Titles
+--------------------------------------------- */
+
+.archive-title {
+	font-size: rem(20);
+}
+
+.entry-title {
+	font-size: rem(360);
+
+	a {
+		color: $color-mine-shaft;
+
+		&:hover,
+		&:focus {
+			color: $color-thunderbird;
+		}
+	}
+}
+
+.sidebar .widget-title a {
+	color: $color-mine-shaft;
+}
+
+.widget-title {
+	font-size: rem(18);
+	margin-bottom: 20px;
+}
+
+.footer-widgets .widget-title {
+	color: $color-white;
+}

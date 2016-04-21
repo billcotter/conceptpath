@@ -1,0 +1,72 @@
+# Application
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
+
+# Ignore everything in the "themes" directory, except specified themes
+web/app/themes/*
+eleven40-pro
+!web/app/themes/genesis
+!web/app/themes/genesis-sample
+!web/app/themes/genesis-startertheme
+!web/app/themes/outreach-pro
+!web/app/themes/sage
+!web/app/themes/startertheme-v1.0.0
+
+
+# Ignore everything in the "plugins" directory, except specified plugins
+web/app/plugins/*
+!web/app/plugins/akismet
+!web/app/plugins/amazon-s3-and-cloudfront
+!web/app/plugins/amazon-web-services
+!web/app/plugins/backup-wp
+!web/app/plugins/cmb2
+!web/app/plugins/contact-form-7
+!web/app/plugins/ewww-image-optimizer
+!web/app/plugins/genesis-grid-loop
+!web/app/plugins/genesis-latest-tweets
+!web/app/plugins/genesis-responsive-slider
+!web/app/plugins/genesis-subtitles
+!web/app/plugins/jetpack
+!web/app/plugins/nginx-helper
+!web/app/plugins/post-types-order
+!web/app/plugins/regenerate-thumbnails
+!web/app/plugins/revision-control
+!web/app/plugins/secondary-title
+!web/app/plugins/simple-social-icons
+!web/app/plugins/subtitles
+!web/app/plugins/sucuri-scanner
+!web/app/plugins/wordpress-database-reset
+!web/app/plugins/wp-optimize
+!web/app/plugins/wp-show-ids
+!web/app/plugins/wp-smushit
+!web/app/plugins/wp-super-cache
+!web/app/plugins/yuzo-related-post
+
+
+# WordPress
+web/wp
+web/.htaccess
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+bin
+.vagrant

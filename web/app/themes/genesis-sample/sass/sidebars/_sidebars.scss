@@ -1,0 +1,24 @@
+
+/* # Sidebars
+---------------------------------------------------------------------------------------------------- */
+
+.sidebar {
+	font-size: rem(16);
+
+	li {
+		border-bottom: 1px dotted $color-alto;
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
+	p:last-child,
+	ul > li:last-child {
+		margin-bottom: 0;
+	}
+
+	.widget {
+		background-color: $color-white;
+		margin-bottom: 40px;
+		padding: 40px;
+	}
+}
